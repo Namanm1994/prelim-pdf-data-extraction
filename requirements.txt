@@ -1,0 +1,16 @@
+# PDF processing
+pdfplumber==0.11.4
+pypdf==5.1.0
+ 
+# OCR pipeline
+pdf2image==1.17.0
+pytesseract==0.3.13
+ 
+# Image preprocessing
+opencv-python==4.10.0.84
+Pillow==11.0.0
+ 
+# Dev / testing
+pytest==8.3.3
+pytest-cov==6.0.0
+ 
