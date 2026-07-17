@@ -1,0 +1,7 @@
+services:
+  pdf_ocr:
+    build: .
+    volumes:
+      - ./input:/app/input      # drop PDFs here
+      - ./output:/app/output    # results land here
+    command: ["python", "main.py", "--input", "/app/input", "--output", "/app/output"]
